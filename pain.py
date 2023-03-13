@@ -20,7 +20,7 @@ class Pain(QDialog):
         self.rast = 0
         #QComboBox.currentTextChanged.connect()
         self.yes = True
-        self.model = tf.keras.models.load_model(f'best_model.h5')
+        self.model = tf.keras.models.load_model(f'model.h5')
         #self.comboBox.currentTextChanged.connect(self.changeModel)
         self.last_coords = None
         self.comboBox.hide()
